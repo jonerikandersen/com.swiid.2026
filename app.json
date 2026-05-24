@@ -6,9 +6,13 @@
   "tags": {
     "en": [ "swiid", "swiidinter" ]
   },
-  "version": "1.0.1",
-  "compatibility": ">=1.5.0",
-  "sdk": 2,
+  "version": "2.0.0",
+  "compatibility": ">=12.0.0",
+  "sdk": 3,
+  "brandColor": "#000000",
+  "platforms": [
+    "local"
+  ],
   "athomForumDiscussionId": 5408,
   "author": {
     "name": "Glenn S. Pedersen",

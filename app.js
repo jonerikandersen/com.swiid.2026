@@ -4,8 +4,8 @@ const Homey = require('homey');
 
 class SwiidApp extends Homey.App {
 
-	onInit() {
-		console.log(`${Homey.manifest.id} is running...`);
+	async onInit() {
+		this.log(`${this.homey.manifest.id} v${this.homey.manifest.version} is running...`);
 	}
 
 }

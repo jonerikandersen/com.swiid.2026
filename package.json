@@ -1,15 +1,16 @@
 {
   "name": "com.swiid",
-  "version": "1.0.1",
-  "description": "Homey app for Z-wave devices from Swiid",
+  "version": "2.0.0",
+  "description": "Homey app for Z-Wave devices from Swiid",
   "main": "app.js",
   "dependencies": {
-    "homey-meshdriver": "1.2.28"
+    "homey-zwavedriver": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {
-    "deploy": "rm -fr node_modules; npm install --production; athom app install",
-    "start": "rm -fr node_modules; npm install --production; athom app run",
+    "validate": "homey app validate",
+    "install-homey": "homey app install",
+    "run": "homey app run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
